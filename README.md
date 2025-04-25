@@ -44,13 +44,13 @@ git commit -m "Comentário do commit"
 git log
 
 #recupera todos os arquivos do commit especificado
-git checkout <id-do-commit-antigo>
+git checkout id-do-commit-antigo
 
 #recupera apenas o arquivo específico do commit especificado
-git checkout <id-do-commit-antigo> -- main.py
+git checkout id-do-commit-antigo -- main.py
 
 #recupera apenas o arquivo específico do commit especificado
-git restore --source=<id-do-commit-antigo> main.py
+git restore --source=id-do-commit-antigo main.py
 
 #cria uma branch (linha do tempo alternativa)
 git checkout -b nova-branch
