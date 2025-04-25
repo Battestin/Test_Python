@@ -2,6 +2,8 @@
 Instala o Git
 
 Botão direito > Open Git Bash Here #na pasta que quer mandar pro repositório
+ou
+ir direto pelo VSCode
 
 #inicia o git
 git init 
